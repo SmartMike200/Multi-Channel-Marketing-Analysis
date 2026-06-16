@@ -1,0 +1,5 @@
+        feature       VIF
+0            TV  6.053203
+1         Radio  8.082831
+2  Social Media  5.294844
+3    Influencer  3.721620

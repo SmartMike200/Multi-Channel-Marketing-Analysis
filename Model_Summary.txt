@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Sales   R-squared:                       0.430
+Model:                            OLS   Adj. R-squared:                  0.427
+Method:                 Least Squares   F-statistic:                     143.0
+Date:                Tue, 16 Jun 2026   Prob (F-statistic):           5.02e-69
+Time:                        21:34:44   Log-Likelihood:                -3223.3
+No. Observations:                 572   AIC:                             6455.
+Df Residuals:                     568   BIC:                             6472.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           53.3403      9.695      5.502      0.000      34.299      72.382
+TV              40.5543      3.478     11.659      0.000      33.723      47.386
+Social Media    18.1948      1.308     13.906      0.000      15.625      20.765
+Influencer      -2.5111      2.525     -0.994      0.320      -7.471       2.449
+==============================================================================
+Omnibus:                       21.744   Durbin-Watson:                   1.945
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.067
+Skew:                           0.426   Prob(JB):                     2.66e-05
+Kurtosis:                       2.602   Cond. No.                         17.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
